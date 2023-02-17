@@ -1,0 +1,47 @@
+
+
+html {
+  background-color: cornflowerblue;
+  color:rebeccapurple;
+  font-weight: bold;
+  font-family: cursive;
+  font-size:xx-large
+}
+
+#button-start, #button-stop, #button-reset {
+  background-color: rebeccapurple;
+  color: white;
+  width: 10%;
+  height: 10vh;
+  justify-content: space-between;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  align-items: center;
+  padding: 0%;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px;
+}
+
+#button-start:hover {
+  background-color: white;
+  color: rebeccapurple;
+}
+
+#button-stop:hover {
+  background-color: white;
+  color: rebeccapurple;
+}
+
+#button-reset:hover {
+  background-color: white;
+  color: rebeccapurple;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 30px auto;
+  text-align:center;
+  text-shadow: 3px 3px 2px white;
+}
